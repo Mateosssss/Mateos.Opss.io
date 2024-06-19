@@ -1,0 +1,121 @@
+@import "bootstrap/scss/bootstrap";
+@import "bootstrap-icons/font/bootstrap-icons.scss";
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Playwrite+IS:wght@100..400&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav{
+    background: rgba($color: #ffffffd3, $alpha: 1.0);
+}
+.navbar-brand{
+    font-size:2rem;
+    color: black;
+    font-family: "Playwrite IS", cursive;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+}
+.navbar-brand:hover{
+    color: black;
+}
+.nav-link{
+    margin-right: 10px;
+    margin-left: 10px;
+    color:black;
+    text-transform: uppercase;
+    font-family: "Playfair Display", serif;
+}
+.nav-link:hover{
+    color:black;
+}
+
+.search{
+    height: 40px;
+    width: 80%;
+    border-radius:60px;
+    outline: none;
+    margin-right: -35px;
+    border: 2px solid rgb(224, 36, 36);
+}
+.btn0{
+    height: 40px;
+    width: 40%;
+    outline: none;
+    border:none;
+    border-radius: 60px;
+    background: rgb(224, 36, 36);
+    color: white;
+    font-weight: 700;
+
+}
+.Home{
+    background: url('/Utilities/main.png')no-repeat;
+    background-size: cover;
+    height: 100vh;
+    background-position: 50% 50%;
+    width: 100%;
+    h1{
+        font-size: 4rem;
+        font-weight: 700;
+        text-shadow: 2px 4px 3px gray;
+    }
+}
+.btn1{
+    height: 45px;
+    width: 35%;
+    border: none;
+    outline: none;
+    background-color: rgb(224, 36, 36);
+    color: white;
+    font-weight: 700;
+    border-radius: 60px;
+    box-shadow: 2px 4px 6px rgba(0, 0, 0, 0.596);
+}
+.btn1:hover{
+    background-color: rgb(194, 44, 44);
+    transition: 0.2s ease-out;
+}
+
+.Examples{
+    h1{
+        font-weight: 700;
+    }
+}
+.card:hover{
+    box-shadow: -2px -1px 25px -4px rgba(0,0,0,0.75);
+    transition: 0.5s ease-in;
+}
+.add_to_cart{
+    width: 80%;
+}
+.newsletter{
+    background-color: black;
+    color: white;
+    input{
+        height: 45px;
+        width: 60%;
+        border: 2px solid white;
+        outline: none;
+        background-color: black;
+        color: white;
+    }
+    .bi{
+        font-size: 2rem;
+    }
+    p{
+        a{
+            text-decoration: none;
+            color: white;
+        }
+    }
+}
+.btn2{
+    height: 45px;
+    width: 100px;
+    background: white;
+    margin-left: -10px;
+    border: 2px solid white;
+    font-weight: 500;
+}
